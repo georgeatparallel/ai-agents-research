@@ -101,6 +101,7 @@ Terminal/CLI agents and agentic IDEs beyond Claude Code — the former "Planned"
 | [mitosis-cortex-analysis.md](context-memory/mitosis-cortex-analysis.md) | Mitosis Labs Cortex (hosted per-team knowledge-graph memory; kNN + full-text + graph fusion, no LLM at query time) | Yes | No (hosted; engine closed, MIT client skills separate) |
 | [hyperspell-analysis.md](context-memory/hyperspell-analysis.md) | Hyperspell (hosted company-data memory platform; ingests Slack/email/drive/CRM into a per-company knowledge model) | Yes | No (hosted; MIT client SDKs only) |
 | [redis-iris-analysis.md](context-memory/redis-iris-analysis.md) | Redis Iris (AI context-engine suite: LangCache, Agent Memory, Context Retriever, Data Integration) | Yes | Partial (self-managed option; Agent Memory's OSS impl `redis/agent-memory-server` is Apache-2.0) |
+| [minigraf-analysis.md](context-memory/minigraf-analysis.md) | Minigraf (embedded bi-temporal Datalog graph database; Rust/Python/WASM/mobile; pitched as agent memory) | Yes | Yes (dual MIT/Apache-2.0) |
 
 ## Infrastructure
 
@@ -120,6 +121,7 @@ Terminal/CLI agents and agentic IDEs beyond Claude Code — the former "Planned"
 | [corsair-analysis.md](infrastructure/corsair-analysis.md) | Corsair (unified managed-OAuth integration API layer for agents, backends, and multi-tenant dashboards) | Yes | Yes (Apache-2.0) |
 | [auto-agi-compiler-analysis.md](infrastructure/auto-agi-compiler-analysis.md) | AUTO (RightNow AI; compiles deterministic agent-execution spans into sandboxed WASM binaries — "frontier models as interpreters") | Yes | Yes (Apache-2.0) |
 | [nvidia-openshell-analysis.md](infrastructure/nvidia-openshell-analysis.md) | NVIDIA OpenShell (kernel-enforced, formally-verified policy runtime for fleets of autonomous agents) | Yes | Yes (Apache-2.0) |
+| [rea-analysis.md](infrastructure/rea-analysis.md) | REA (MCP server + CLI giving coding agents reverse-engineering tools for native binaries, JS/Electron apps, .NET assemblies, websites; multi-agent — Claude Code, Codex, Cursor, Gemini CLI, Grok Build) | Yes | Yes (MIT) |
 
 ## Frameworks
 
